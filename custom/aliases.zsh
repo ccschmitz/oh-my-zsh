@@ -4,6 +4,7 @@ alias gs="git status"
 alias gc="git commit"
 alias gcv="git commit -v"
 alias gA"git add -A"
+alias gg="git-goggles"
 
 # Reset Coreaudio service
 alias resetaudio="sudo kill -9 `ps ax|grep 'coreaudio[a-z]' | awk '{print $1}'`"
